@@ -484,7 +484,8 @@ WORKSPACE_FEATURE_OVERRIDES="chat.read:off,chat.write:off,people.read:off,slides
 node probe/google-workspace-probe.mjs --stdio tools/list
 ```
 
-Expected on a healthy build: `google-workspace-server` / `0.0.8`, and 57 tools
+Expected on a healthy build: the bridge reports `google-workspace 0.0.8`; the
+stdio child reports `google-workspace-server 0.0.8`. The tool count is 57
 without the overrides or 38 with them. `[field-tested 2026-11-05]`
 
 The probe accepts **no token on the command line** and never prints
