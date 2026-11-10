@@ -1,0 +1,12 @@
+.pave/
+node_modules/
+*.log
+.DS_Store
+
+# Credentials and local OAuth material
+creds.json
+*.token
+gemini-cli-workspace-token.json
+.gemini-cli-workspace-master-key
+.env
+.env.*

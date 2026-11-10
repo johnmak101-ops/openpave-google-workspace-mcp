@@ -1,0 +1,29 @@
+# OpenPAVE Google Workspace MCP Skill
+# Doctrine skill for the Gemini CLI Google Workspace MCP server, bridged into PAVE
+
+name: google-workspace-mcp
+version: 0.1.0
+description: Operate Gmail, Drive, Docs, and Calendar through the Google Workspace MCP server (Gemini CLI extension, bridged into PAVE) - verified doctrines for install, OAuth, the 4-scope ceiling, and 38 tools
+
+author:
+  name: johnmak101-ops
+  url: https://github.com/johnmak101-ops
+
+license: MIT
+homepage: https://github.com/johnmak101-ops/openpave-google-workspace-mcp
+repository: johnmak101-ops/openpave-google-workspace-mcp
+
+entrypoint: SKILL.md
+
+# Metadata
+keywords:
+  - google-workspace
+  - gmail
+  - google-drive
+  - google-docs
+  - google-calendar
+  - mcp
+  - oauth
+
+category: productivity
+icon: "\U0001F4E7"
